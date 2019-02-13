@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD4D4"
+    tools:context=".Main4Activity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/im1"
+        android:gravity="center|top"
+        android:id="@+id/texto"
+        />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/texto"
+            android:src="@drawable/im2"
+            android:id="@+id/im1"
+            />
+
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/im1"
+        android:src="@drawable/im3"
+        android:layout_margin="60dp"
+        android:id="@+id/im3"
+        />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/im1"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/im4"
+        android:id="@+id/im4"
+        />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/im3"
+        android:src="@drawable/im5a"
+        android:layout_margin="60dp"
+        android:id="@+id/ime"
+        />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/im4"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/im5b"
+        android:id="@+id/im5"
+        />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/im5"
+        android:src="@drawable/im6"
+        />
+</RelativeLayout>
